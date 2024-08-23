@@ -83,6 +83,48 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "title": "Software Developers",
+      "type": "Full-Time",
+      "location": "Ortigas, Metro Manila",
+      "description": "hahahahahahaha",
+      "salary": "$125K - $150K",
+      "company": {
+        "name": "Synermaxx Corp",
+        "description": "jasdhakjsdasdasda asdkhaksjdhkasdhas aklshdakjsdhakjshda jalskdjaklsdasd",
+        "contactEmail": "cristian.amparo2@cvsu.edu.ph",
+        "contactPhone": "09266273180"
+      },
+      "id": "3556"
+    },
+    {
+      "id": "e39f",
+      "title": "Software Dev",
+      "type": "Full-Time",
+      "location": "aaaa",
+      "description": "aaaaa",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Synermaxx Corp",
+        "description": "aaaa",
+        "contactEmail": "cristian.amparo2@cvsu.edu.ph",
+        "contactPhone": "09266273180"
+      }
+    },
+    {
+      "id": "ab9c",
+      "title": "Mopbike Dev",
+      "type": "Full-Time",
+      "location": "aaaa",
+      "description": "aaaa",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Synermaxx Corp",
+        "description": "aaaa",
+        "contactEmail": "cristian.amparo2@cvsu.edu.ph",
+        "contactPhone": "09266273180"
+      }
     }
   ]
 }

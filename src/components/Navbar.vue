@@ -32,9 +32,9 @@ const isActiveLink = (routhPath) => {
             >Jobs</RouterLink
           >
           <RouterLink
-            to="/product"
+            to="/jobs/add"
             :class="[isActiveLink() ? 'text-orange-600' : '']"
-            >Product</RouterLink
+            >Add Job</RouterLink
           >
           <RouterLink
             to="/blog"

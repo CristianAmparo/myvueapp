@@ -22,7 +22,7 @@ const truncatedDescription = computed(() => {
 </script>
 
 <template>
-  <div class="w-full bg-slate-50 shadow-lg space-y-2 rounded-lg p-5">
+  <div class="w-full bg-slate-50 shadow-lg space-y-3 rounded-lg p-5">
     <p>{{ job.type }}</p>
     <h3 class="font-bold text-xl mb-10">{{ job.title }}</h3>
     <p class="text-sm">
@@ -33,7 +33,7 @@ const truncatedDescription = computed(() => {
     </p>
     <p class="text-orange-500">{{ job.salary }}</p>
     <div class="w-full bg-gray-400 h-0.5"></div>
-    <p class="text-red-700">{{ job.location }}</p>
+    <p class="text-red-700 pb-5">{{ job.location }}</p>
     <RouterLink :to="'/jobs/' + job.id">
       <button
         class="py-2 w-full text-white rounded-lg bg-orange-500 hover:bg-orange-600"

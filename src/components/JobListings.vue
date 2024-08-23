@@ -21,7 +21,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <section class="">
+  <section class="mt-20">
     <div class="container mx-auto p-5">
       <h2 class="text-3xl font-bold text-orange-500 mb-5 text-center">
         Browse Jobs
