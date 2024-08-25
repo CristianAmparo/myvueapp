@@ -1,11 +1,12 @@
 <script setup>
-import Hero from "@/components/Hero.vue";
-import HomeCards from "@/components/HomeCards.vue";
-import JobListings from "@/components/JobListings.vue";
+import { useRouter } from 'vue-router';
+
+const router = useRouter()
+
+const userData = JSON.parse(localStorage.getItem('userData'))
+
 </script>
 
 <template>
-  <Hero name="Cristian" subtitle="Welcome to my Vue Website" />
-  <HomeCards />
-  <JobListings :limit="3" :show="true" />
+  <h1 class="mt-56">hello world {{ userData.username }}</h1>
 </template>
